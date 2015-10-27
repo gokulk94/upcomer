@@ -1,0 +1,306 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 5, ../sass/print.scss */
+body {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 10, ../sass/print.scss */
+header {
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+/* line 16, ../sass/print.scss */
+header .main-header {
+  width: 81%;
+  margin: auto;
+  text-align: center;
+  padding: 25px 0px;
+  font-family: 'Asap', sans-serif;
+}
+/* line 22, ../sass/print.scss */
+header .main-header .header-left {
+  float: left;
+  font-size: 18pt;
+  font-weight: 700;
+}
+/* line 26, ../sass/print.scss */
+header .main-header .header-left div {
+  display: inline-block;
+  padding: 5px;
+  color: #999;
+}
+/* line 31, ../sass/print.scss */
+header .main-header .header-left .active {
+  color: #333;
+}
+/* line 35, ../sass/print.scss */
+header .main-header .header-right {
+  float: right;
+}
+/* line 37, ../sass/print.scss */
+header .main-header .header-right img {
+  padding-right: 5px;
+}
+/* line 39, ../sass/print.scss */
+header .main-header .header-right img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* line 48, ../sass/print.scss */
+main {
+  position: relative;
+  top: 80px;
+  font-family: 'Asap', sans-serif;
+}
+/* line 52, ../sass/print.scss */
+main .subscriber-section {
+  background-image: url("../images/bg1_repeat.png");
+  width: 100%;
+}
+/* line 55, ../sass/print.scss */
+main .subscriber-section .content {
+  width: 50%;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  height: auto;
+  line-height: 1.4;
+}
+/* line 62, ../sass/print.scss */
+main .subscriber-section .content h2 {
+  padding: 50px 0px;
+  font-size: 52px;
+  font-weight: 700;
+}
+/* line 67, ../sass/print.scss */
+main .subscriber-section .content p {
+  font-size: 24px;
+}
+/* line 70, ../sass/print.scss */
+main .subscriber-section .content span {
+  display: block;
+  padding: 15px 0px;
+  font-size: 16px;
+}
+/* line 75, ../sass/print.scss */
+main .subscriber-section .content img {
+  position: relative;
+  top: 5px;
+}
+/* line 79, ../sass/print.scss */
+main .subscriber-section .content form.email-bar {
+  padding-top: 20px;
+}
+/* line 81, ../sass/print.scss */
+main .subscriber-section .content form.email-bar input {
+  border: none;
+  border-style: none;
+  border-color: transparent;
+}
+/* line 86, ../sass/print.scss */
+main .subscriber-section .content form.email-bar input[type=email] {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  width: 220px;
+  height: 43px;
+  padding: 8px 0px 9px 45px;
+  opacity: 0.3;
+  width: 269px;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 20.3px;
+}
+/* line 98, ../sass/print.scss */
+main .subscriber-section .content form.email-bar input[type=submit] {
+  position: relative;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  width: 81px;
+  height: 60px;
+  margin-left: -5px;
+  background-color: #2ecc71;
+  background-image: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20.3px;
+}
+/* line 113, ../sass/print.scss */
+main .content-1 {
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  width: 100%;
+  line-height: 1.5;
+}
+/* line 118, ../sass/print.scss */
+main .content-1 .description {
+  width: 50%;
+  margin: auto;
+  padding: 105px 0px 20px 0px;
+}
+/* line 122, ../sass/print.scss */
+main .content-1 .description h2 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+/* line 128, ../sass/print.scss */
+main .content-1 .description p {
+  font-size: 20px;
+  color: #999;
+}
+/* line 132, ../sass/print.scss */
+main .content-1 .description img {
+  width: 100%;
+  height: auto;
+}
+/* line 138, ../sass/print.scss */
+main .content-2 {
+  background-color: #f5f5f5;
+  width: 100%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+/* line 145, ../sass/print.scss */
+main .content-2 .slot {
+  display: block;
+  width: 81%;
+  margin: auto;
+  padding: 40px 0px;
+}
+/* line 151, ../sass/print.scss */
+main .content-2 .slot .description h2 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+}
+/* line 156, ../sass/print.scss */
+main .content-2 .slot .description p {
+  font-size: 20px;
+  color: #999;
+}
+/* line 163, ../sass/print.scss */
+main .content-2 .left img {
+  float: left;
+  padding-right: 20px;
+}
+/* line 168, ../sass/print.scss */
+main .content-2 .right {
+  padding-top: 60px;
+}
+/* line 170, ../sass/print.scss */
+main .content-2 .right img {
+  float: right;
+  padding-left: 20px;
+}
+/* line 176, ../sass/print.scss */
+main .subscriber-footer {
+  width: 100%;
+  background-image: url("../images/bg2.png");
+}
+/* line 179, ../sass/print.scss */
+main .subscriber-footer .content {
+  width: 63%;
+  margin: auto;
+  padding-bottom: 100px;
+  font-family: 'Asap', sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+/* line 187, ../sass/print.scss */
+main .subscriber-footer .content p {
+  font-size: 24px;
+  padding-top: 100px;
+}
+/* line 190, ../sass/print.scss */
+main .subscriber-footer .content p b {
+  font-weight: 700;
+}
+/* line 194, ../sass/print.scss */
+main .subscriber-footer .content form.email-bar {
+  padding-top: 20px;
+}
+/* line 196, ../sass/print.scss */
+main .subscriber-footer .content form.email-bar input {
+  border: none;
+  border-style: none;
+  border-color: transparent;
+}
+/* line 201, ../sass/print.scss */
+main .subscriber-footer .content form.email-bar input[type=email] {
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  width: 220px;
+  height: 43px;
+  padding: 8px 0px 9px 45px;
+  opacity: 0.3;
+  width: 269px;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 20.3px;
+}
+/* line 213, ../sass/print.scss */
+main .subscriber-footer .content form.email-bar input[type=submit] {
+  position: relative;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  width: 81px;
+  height: 60px;
+  margin-left: -5px;
+  background-color: #2ecc71;
+  background-image: none;
+  font-family: 'Asap', sans-serif;
+  font-size: 20.3px;
+}
+/* line 226, ../sass/print.scss */
+main .subscriber-footer .content span {
+  position: relative;
+  top: 13px;
+}
+/* line 232, ../sass/print.scss */
+main .hashtagLoader {
+  width: 100%;
+  background-color: #333;
+}
+/* line 235, ../sass/print.scss */
+main .hashtagLoader .content {
+  color: #fff;
+  text-align: center;
+}
+/* line 238, ../sass/print.scss */
+main .hashtagLoader .content p {
+  position: relative;
+  top: -130px;
+  left: -80px;
+  display: inline-block;
+  font-family: 'Asap', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* line 247, ../sass/print.scss */
+main .hashtagLoader .content img {
+  display: inline-block;
+}
+
+/* line 254, ../sass/print.scss */
+footer {
+  width: 100%;
+  position: relative;
+  top: -22px;
+  text-align: center;
+  margin-top: 136px;
+}
+/* line 260, ../sass/print.scss */
+footer img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
