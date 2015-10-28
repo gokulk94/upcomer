@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+    header {
+        .main-header {
+            width: 100%;
+        }
+    }
+    main {
+        .subscriber-section {
+            .content {
+                width: 80%;
+                h2 {
+                    font-size: 38px;
+                }
+                p {
+                    font-size: 19px;
+                }
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+        .content-1 {
+            .description {
+                width: 80%;
+                h2 {
+                    font-size: 29px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .content-2 {
+            .slot {
+                text-align: center;
+                .description {
+                    position: absolute;
+                    width: 80%;
+                    float: none;
+                    display: block;
+                    h2 {
+                        font-size: 29px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                img {
+                    margin-top: 150px;
+                    width: 80%;
+                    height: auto;
+                }
+            }
+            .left, .right {
+                h2, p {
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+                img {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+        .hashtagLoader {
+            height: auto;
+            .content {
+                img {
+                    height: 160px;
+                    width: 150px;
+                }
+                p {
+                    top: -73px;
+                    left: -67px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  /* line 3, ../sass/media-mobile.scss */
+  header .main-header {
+    width: 100%;
+  }
+
+  /* line 9, ../sass/media-mobile.scss */
+  main .subscriber-section .content {
+    width: 80%;
+  }
+  /* line 11, ../sass/media-mobile.scss */
+  main .subscriber-section .content h2 {
+    font-size: 38px;
+  }
+  /* line 14, ../sass/media-mobile.scss */
+  main .subscriber-section .content p {
+    font-size: 19px;
+  }
+  /* line 17, ../sass/media-mobile.scss */
+  main .subscriber-section .content span {
+    font-size: 13px;
+  }
+  /* line 23, ../sass/media-mobile.scss */
+  main .content-1 .description {
+    width: 80%;
+  }
+  /* line 25, ../sass/media-mobile.scss */
+  main .content-1 .description h2 {
+    font-size: 29px;
+  }
+  /* line 28, ../sass/media-mobile.scss */
+  main .content-1 .description p {
+    font-size: 16px;
+  }
+  /* line 34, ../sass/media-mobile.scss */
+  main .content-2 .slot {
+    text-align: center;
+  }
+  /* line 36, ../sass/media-mobile.scss */
+  main .content-2 .slot .description {
+    position: absolute;
+    width: 80%;
+    float: none;
+    display: block;
+  }
+  /* line 41, ../sass/media-mobile.scss */
+  main .content-2 .slot .description h2 {
+    font-size: 29px;
+  }
+  /* line 44, ../sass/media-mobile.scss */
+  main .content-2 .slot .description p {
+    font-size: 16px;
+  }
+  /* line 48, ../sass/media-mobile.scss */
+  main .content-2 .slot img {
+    margin-top: 150px;
+    width: 80%;
+    height: auto;
+  }
+  /* line 55, ../sass/media-mobile.scss */
+  main .content-2 .left h2, main .content-2 .left p, main .content-2 .right h2, main .content-2 .right p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* line 59, ../sass/media-mobile.scss */
+  main .content-2 .left img, main .content-2 .right img {
+    display: block;
+    text-align: center;
+  }
+  /* line 65, ../sass/media-mobile.scss */
+  main .hashtagLoader {
+    height: auto;
+  }
+  /* line 68, ../sass/media-mobile.scss */
+  main .hashtagLoader .content img {
+    height: 160px;
+    width: 150px;
+  }
+  /* line 72, ../sass/media-mobile.scss */
+  main .hashtagLoader .content p {
+    top: -73px;
+    left: -67px;
+    font-size: 30px;
+  }
+}

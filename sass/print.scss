@@ -13,6 +13,7 @@ header {
     z-index: 999;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid #F5F5F5;
     .main-header {
         width: 81%;
         margin: auto;
@@ -21,15 +22,21 @@ header {
         font-family: 'Asap', sans-serif;
         .header-left {
             float: left;
-            font-size: 18pt;
+            font-size: 18px;
             font-weight: 700;
             div {
                 display: inline-block;
                 padding: 5px;
+
+            }
+            a {
+                text-decoration: none;
                 color: #999;
             }
             .active {
-                color: #333;
+                a {
+                    color: #333;
+                }
             }
         }
         .header-right {
@@ -86,12 +93,10 @@ main {
                 input[type=email] {
                     border-top-left-radius: 60px;
                     border-bottom-left-radius: 60px;
-                    width: 220px;
                     height: 43px;
                     padding: 8px 0px 9px 45px;
                     opacity: 0.3;
-                    width: 269px;
-                    color: #fff;
+                    width: 217px;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
                 }
@@ -129,10 +134,10 @@ main {
                 font-size: 20px;
                 color: #999;
             }
-            img {
-                width: 100%;
-                height: auto;
-            }
+        }
+        img {
+            width: 100%;
+            height: auto;
         }
     }
     .content-2 {
@@ -147,13 +152,21 @@ main {
             width: 81%;
             margin: auto;
             padding: 40px 0px;
+            img {
+                width: 48%;
+                height: auto;
+            }
             .description {
+                float: left;
+                width: 48%;
                 h2 {
+                    line-height: 1;
                     font-size: 36px;
                     color: #333;
                     font-weight: 700;
                 }
                 p {
+                    width: 100%;
                     font-size: 20px;
                     color: #999;
                 }
@@ -170,6 +183,9 @@ main {
             img {
                 float: right;
                 padding-left: 20px;
+            }
+            h2, p {
+                text-align: right;
             }
         }
     }
@@ -191,6 +207,9 @@ main {
                     font-weight: 700;
                 }
             }
+            p.try {
+                padding-top: 30px;
+            }
             form.email-bar {
                 padding-top: 20px;
                 input {
@@ -201,11 +220,10 @@ main {
                 input[type=email] {
                     border-top-left-radius: 60px;
                     border-bottom-left-radius: 60px;
-                    width: 220px;
                     height: 43px;
                     padding: 8px 0px 9px 45px;
                     opacity: 0.3;
-                    width: 269px;
+                    width: 217px;
                     color: #fff;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
@@ -245,7 +263,62 @@ main {
                 font-weight: 700;
             }
             img {
-                display: inline-block;
+
+            }
+        }
+    }
+    .about-section-1 {
+        font-family: 'Asap', sans-serif;
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding-top: 60px;
+        line-height: 1.4;
+        height: auto;
+        .content {
+            width: 58%;
+            float: left;
+            padding-right: 2%;
+            h2 {
+                font-size: 36px;
+                font-weight: 700;
+                color: #333;
+                padding-bottom: 30px;
+            }
+            p {
+                font-size: 20px;
+                color: #999;
+                padding-bottom: 20px;
+            }
+        }
+        .content-image {
+            width: 40%;
+            float: left;
+            img {
+
+            }
+        }
+    }
+    .about-section-2 {
+        font-family: 'Asap', sans-serif;
+        display: block;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        line-height: 1.4;
+        padding-top: 50px;
+        position: relative;
+        top: 60px;
+        .content {
+            h2 {
+                font-size: 36px;
+                color: #333;
+                font-weight: 700;
+            }
+            p {
+                font-size: 20px;
+                color: #999;
+                padding-bottom: 20px;
             }
         }
     }
