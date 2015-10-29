@@ -506,17 +506,17 @@ main .about-section-2 .content a {
     background-color: #f5f5f5;
     width: 100%;
     position: relative;
-    margin-top: 81px;
     padding-top: 36px;
   }
-  /* line 388, ../sass/print.scss */
+  /* line 387, ../sass/print.scss */
   main .about-circles .container_wrapper {
     position: relative;
     width: 87%;
     margin: auto;
   }
-  /* line 395, ../sass/print.scss */
+  /* line 394, ../sass/print.scss */
   main .about-circles .content_list {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -525,6 +525,7 @@ main .about-section-2 .content a {
   /* line 400, ../sass/print.scss */
   main .about-circles .content_list .list_left {
     width: 41%;
+    position: relative;
     border-right: 7px solid #fff;
     padding: 2%;
     padding-right: 5%;
@@ -549,53 +550,57 @@ main .about-section-2 .content a {
   }
   /* line 424, ../sass/print.scss */
   main .about-circles .content_list .list_left .tool_tip {
+    position: absolute;
     float: right;
-    margin-right: -4%;
+    right: 32px;
     margin-top: -15%;
     border-bottom: 15px solid transparent;
     border-top: 15px solid transparent;
     border-left: 20px solid #fff;
   }
-  /* line 432, ../sass/print.scss */
+  /* line 433, ../sass/print.scss */
   main .about-circles .content_list .list_left .circle {
+    position: absolute;
     width: 40px;
     height: 40px;
     background-color: #ffc3bd;
     border-radius: 50%;
     border: 9px solid #f5f5f5;
     float: right;
-    margin-right: -20%;
+    right: -31px;
     margin-top: -19%;
   }
-  /* line 443, ../sass/print.scss */
+  /* line 445, ../sass/print.scss */
   main .about-circles .content_list .list_right {
     width: 41%;
     margin-top: 110px;
+    position: relative;
     background-color: #f5f5f5;
     padding: 2%;
     padding-left: 7%;
     display: inline-block;
   }
-  /* line 453, ../sass/print.scss */
+  /* line 456, ../sass/print.scss */
   main .about-circles .content_list .list_right .content {
     background-color: #fff;
     border-radius: 10px;
   }
-  /* line 456, ../sass/print.scss */
+  /* line 459, ../sass/print.scss */
   main .about-circles .content_list .list_right .content h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 462, ../sass/print.scss */
+  /* line 465, ../sass/print.scss */
   main .about-circles .content_list .list_right .content p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 468, ../sass/print.scss */
+  /* line 471, ../sass/print.scss */
   main .about-circles .content_list .list_right .tool_tip {
+    position: absolute;
     float: left;
     margin-left: -4%;
     margin-top: -15%;
@@ -603,24 +608,25 @@ main .about-section-2 .content a {
     border-top: 15px solid transparent;
     border-right: 20px solid #fff;
   }
-  /* line 476, ../sass/print.scss */
+  /* line 480, ../sass/print.scss */
   main .about-circles .content_list .list_right .circle {
+    position: absolute;
     width: 40px;
     height: 40px;
     background-color: #ffc3bd;
     border-radius: 50%;
     float: left;
     border: 9px solid #f5f5f5;
-    margin-left: -25.5%;
+    left: -33px;
     margin-top: -18%;
   }
-  /* line 487, ../sass/print.scss */
+  /* line 492, ../sass/print.scss */
   main .about-circles .content_list #last_div {
     padding-bottom: 100px;
   }
 }
 
-/* line 494, ../sass/print.scss */
+/* line 499, ../sass/print.scss */
 footer {
   width: 100%;
   position: relative;
@@ -628,7 +634,7 @@ footer {
   text-align: center;
   margin-top: 136px;
 }
-/* line 500, ../sass/print.scss */
+/* line 505, ../sass/print.scss */
 footer img:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -764,84 +770,91 @@ footer img:hover {
   }
 }
 @media (max-width: 1023px) {
-  /* line 5, ../sass/media-1023.scss */
+  /* line 3, ../sass/media-1023.scss */
   main .about-section-1 {
     text-align: center;
   }
-  /* line 7, ../sass/media-1023.scss */
+  /* line 5, ../sass/media-1023.scss */
   main .about-section-1 .content, main .about-section-1 .content-image {
     width: 100%;
   }
-  /* line 12, ../sass/media-1023.scss */
+  /* line 10, ../sass/media-1023.scss */
   main .about-circles .container_2 {
     position: relative;
     background-color: #f5f5f5;
     width: 100%;
   }
-  /* line 16, ../sass/media-1023.scss */
+  /* line 14, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper {
+    position: relative;
     padding-top: 30px;
     margin-left: 95px;
     border-left: 7px solid #fff;
   }
-  /* line 20, ../sass/media-1023.scss */
+  /* line 19, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list {
-    width: 87%;
+    position: relative;
     margin: auto;
   }
-  /* line 23, ../sass/media-1023.scss */
+  /* line 22, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .list_left {
+    position: relative;
     width: 80%;
     margin: 20px;
   }
   /* line 29, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .list_right {
+    position: relative;
     width: 80%;
     margin: 20px;
   }
-  /* line 33, ../sass/media-1023.scss */
+  /* line 34, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .content {
+    position: relative;
     background-color: #fff;
     border-radius: 10px;
+    margin-left: 47px;
   }
-  /* line 36, ../sass/media-1023.scss */
+  /* line 39, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .content h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 42, ../sass/media-1023.scss */
+  /* line 45, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .content p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 48, ../sass/media-1023.scss */
+  /* line 51, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .tool_tip {
+    position: absolute;
     float: left;
-    margin-left: -3%;
-    margin-top: -10%;
+    left: 27px;
+    top: 23%;
     border-bottom: 15px solid transparent;
     border-top: 15px solid transparent;
     border-right: 20px solid #fff;
   }
-  /* line 56, ../sass/media-1023.scss */
+  /* line 60, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list .circle {
+    position: absolute;
     width: 40px;
     height: 40px;
     background-color: #ffc3bd;
     border-radius: 50%;
     border: 9px solid #f5f5f5;
     float: left;
-    margin-left: -18%;
-    margin-top: -10%;
+    left: -54px;
+    top: 14%;
   }
-  /* line 66, ../sass/media-1023.scss */
+  /* line 71, ../sass/media-1023.scss */
   main .about-circles .container_2 .container_wrapper .content_list #last_div {
     padding-bottom: 100px;
   }
-  /* line 72, ../sass/media-1023.scss */
+  /* line 77, ../sass/media-1023.scss */
   main .about-circles .circle_2014 {
     font-family: Asap;
     position: absolute;
@@ -854,18 +867,19 @@ footer img:hover {
     font-weight: 700;
     background-color: black;
     color: #999;
+    z-index: 999;
     font-size: 20px;
     margin: auto;
     background-color: #f5f5f5;
     text-align: center;
   }
-  /* line 88, ../sass/media-1023.scss */
+  /* line 94, ../sass/media-1023.scss */
   main .about-circles .circle_2014 span {
     float: left;
     margin: 30%;
     margin-top: 40%;
   }
-  /* line 94, ../sass/media-1023.scss */
+  /* line 100, ../sass/media-1023.scss */
   main .about-circles .circle_now {
     font-family: Asap;
     width: 100px;
@@ -882,7 +896,7 @@ footer img:hover {
     top: -55px;
     text-align: center;
   }
-  /* line 109, ../sass/media-1023.scss */
+  /* line 115, ../sass/media-1023.scss */
   main .about-circles .circle_now span {
     float: left;
     margin: 30%;
