@@ -1,0 +1,21 @@
+@media (max-width: 567px) {
+  /* line 4, ../sass/media-567.scss */
+  header .main-header .header-right {
+    display: none;
+  }
+  /* line 7, ../sass/media-567.scss */
+  header .main-header .header-left {
+    width: 100%;
+    margin-top: -31px;
+  }
+  /* line 10, ../sass/media-567.scss */
+  header .main-header .header-left .home {
+    float: left;
+    padding-left: 20px;
+  }
+  /* line 14, ../sass/media-567.scss */
+  header .main-header .header-left .about {
+    float: right;
+    padding-right: 20px;
+  }
+}

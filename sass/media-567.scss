@@ -1,0 +1,21 @@
+@media (max-width: 567px) {
+    header {
+        .main-header {
+            .header-right {
+                display: none;
+            }
+            .header-left {
+                width: 100%;
+                margin-top: -31px;
+                .home {
+                    float: left;
+                    padding-left: 20px
+                }
+                .about {
+                    float: right;
+                    padding-right: 20px
+                }
+            }
+        }
+    }
+}
