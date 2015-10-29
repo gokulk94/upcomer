@@ -68,15 +68,41 @@
     text-align: center;
   }
   /* line 65, ../sass/media-mobile.scss */
+  main .about-section-1 {
+    width: 90%;
+    margin: auto;
+  }
+  /* line 69, ../sass/media-mobile.scss */
+  main .about-section-1 .content h2 {
+    font-size: 29px;
+  }
+  /* line 72, ../sass/media-mobile.scss */
+  main .about-section-1 .content p {
+    font-size: 16px;
+  }
+  /* line 77, ../sass/media-mobile.scss */
+  main .about-section-2 {
+    width: 90%;
+    margin: auto;
+  }
+  /* line 81, ../sass/media-mobile.scss */
+  main .about-section-2 .content h2 {
+    font-size: 29px;
+  }
+  /* line 84, ../sass/media-mobile.scss */
+  main .about-section-2 .content p {
+    font-size: 16px;
+  }
+  /* line 89, ../sass/media-mobile.scss */
   main .hashtagLoader {
     height: auto;
   }
-  /* line 68, ../sass/media-mobile.scss */
+  /* line 92, ../sass/media-mobile.scss */
   main .hashtagLoader .content img {
     height: 160px;
     width: 150px;
   }
-  /* line 72, ../sass/media-mobile.scss */
+  /* line 96, ../sass/media-mobile.scss */
   main .hashtagLoader .content p {
     top: -73px;
     left: -67px;
