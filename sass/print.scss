@@ -6,6 +6,7 @@ body {
     margin: auto;
 }
 header {
+    max-width: 1280px;
     width: 100%;
     background-color: #fff;
     z-index: 999;
@@ -91,6 +92,7 @@ main {
                     border: none;
                     border-style: none;
                     border-color: transparent;
+                    outline: none;
                 }
                 input[type=email] {
                     border-top-left-radius: 60px;
@@ -101,6 +103,12 @@ main {
                     width: 217px;
                     font-family: 'Asap', sans-serif;
                     font-size: 20.3px;
+                    outline: none;
+                    &:focus {
+                        border: none;
+                        border-style: none;
+                        border-color: transparent;
+                    }
                 }
                 input[type=submit] {
                     position: relative;
@@ -219,6 +227,7 @@ main {
                     border: none;
                     border-style: none;
                     border-color: transparent;
+                    outline: none;
                 }
                 input[type=email] {
                     border-top-left-radius: 60px;
@@ -308,13 +317,14 @@ main {
         margin: auto;
         text-align: center;
         line-height: 1.4;
-        padding: 60px 0;
+        padding-bottom: 60px;
         top: 60px;
         .content {
             h2 {
                 font-size: 36px;
                 color: #333;
                 font-weight: 700;
+                padding-bottom: 20px;
             }
             p {
                 font-size: 20px;
@@ -376,6 +386,8 @@ main {
                     float: left;
                     margin: 30%;
                     margin-top: 40%;
+                    font-weight: 700;
+                    color: #fff;
                 }
             }
             .container_2 {
@@ -492,6 +504,18 @@ main {
                 }
             }
         }
+    }
+    #first {
+        background-color: #ffc3bd;
+    }
+    #second {
+        background-color: #fa9d93;
+    }
+    #third {
+        background-color: #ed8074;
+    }
+    #fourth {
+        background-color: #ec675a;
     }
 }
 footer {

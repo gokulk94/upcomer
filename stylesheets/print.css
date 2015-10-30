@@ -9,6 +9,7 @@ body {
 
 /* line 8, ../sass/print.scss */
 header {
+  max-width: 1280px;
   width: 100%;
   background-color: #fff;
   z-index: 999;
@@ -17,7 +18,7 @@ header {
   z-index: 9999;
   border-bottom: 1px solid #f5f5f5;
 }
-/* line 16, ../sass/print.scss */
+/* line 17, ../sass/print.scss */
 header .main-header {
   width: 81%;
   margin: auto;
@@ -25,59 +26,59 @@ header .main-header {
   padding: 25px 0;
   font-family: 'Asap', sans-serif;
 }
-/* line 22, ../sass/print.scss */
+/* line 23, ../sass/print.scss */
 header .main-header .header-left {
   float: left;
   font-size: 18px;
   font-weight: 700;
 }
-/* line 26, ../sass/print.scss */
+/* line 27, ../sass/print.scss */
 header .main-header .header-left div {
   display: inline-block;
   padding: 5px;
 }
-/* line 30, ../sass/print.scss */
+/* line 31, ../sass/print.scss */
 header .main-header .header-left a {
   text-decoration: none;
   color: #999;
 }
-/* line 35, ../sass/print.scss */
+/* line 36, ../sass/print.scss */
 header .main-header .header-left .active a {
   color: #333;
 }
-/* line 40, ../sass/print.scss */
+/* line 41, ../sass/print.scss */
 header .main-header .header-right {
   float: right;
 }
-/* line 42, ../sass/print.scss */
+/* line 43, ../sass/print.scss */
 header .main-header .header-right img {
   padding-right: 5px;
 }
-/* line 44, ../sass/print.scss */
+/* line 45, ../sass/print.scss */
 header .main-header .header-right img:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
-/* line 52, ../sass/print.scss */
+/* line 53, ../sass/print.scss */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 57, ../sass/print.scss */
+/* line 58, ../sass/print.scss */
 main {
   position: relative;
   top: 80px;
   font-family: 'Asap', sans-serif;
 }
-/* line 61, ../sass/print.scss */
+/* line 62, ../sass/print.scss */
 main .subscriber-section {
   background-image: url("../images/bg1_repeat.png");
   width: 100%;
 }
-/* line 64, ../sass/print.scss */
+/* line 65, ../sass/print.scss */
 main .subscriber-section .content {
   width: 50%;
   color: #fff;
@@ -86,38 +87,39 @@ main .subscriber-section .content {
   height: auto;
   line-height: 1.4;
 }
-/* line 71, ../sass/print.scss */
+/* line 72, ../sass/print.scss */
 main .subscriber-section .content h2 {
   padding: 50px 0;
   font-size: 52px;
   font-weight: 700;
 }
-/* line 76, ../sass/print.scss */
+/* line 77, ../sass/print.scss */
 main .subscriber-section .content p {
   font-size: 24px;
 }
-/* line 79, ../sass/print.scss */
+/* line 80, ../sass/print.scss */
 main .subscriber-section .content span {
   display: block;
   padding: 15px 0;
   font-size: 16px;
 }
-/* line 84, ../sass/print.scss */
+/* line 85, ../sass/print.scss */
 main .subscriber-section .content img {
   position: relative;
   top: 5px;
 }
-/* line 88, ../sass/print.scss */
+/* line 89, ../sass/print.scss */
 main .subscriber-section .content form.email-bar {
   padding-top: 20px;
 }
-/* line 90, ../sass/print.scss */
+/* line 91, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input {
   border: none;
   border-style: none;
   border-color: transparent;
+  outline: none;
 }
-/* line 95, ../sass/print.scss */
+/* line 97, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input[type=email] {
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -127,8 +129,15 @@ main .subscriber-section .content form.email-bar input[type=email] {
   width: 217px;
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
+  outline: none;
 }
-/* line 105, ../sass/print.scss */
+/* line 107, ../sass/print.scss */
+main .subscriber-section .content form.email-bar input[type=email]:focus {
+  border: none;
+  border-style: none;
+  border-color: transparent;
+}
+/* line 113, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input[type=submit] {
   position: relative;
   border-top-right-radius: 60px;
@@ -141,37 +150,37 @@ main .subscriber-section .content form.email-bar input[type=submit] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 120, ../sass/print.scss */
+/* line 128, ../sass/print.scss */
 main .content-1 {
   font-family: 'Asap', sans-serif;
   text-align: center;
   width: 100%;
   line-height: 1.5;
 }
-/* line 125, ../sass/print.scss */
+/* line 133, ../sass/print.scss */
 main .content-1 .description {
   width: 50%;
   margin: auto;
   padding: 105px 0 20px;
 }
-/* line 129, ../sass/print.scss */
+/* line 137, ../sass/print.scss */
 main .content-1 .description h2 {
   font-size: 36px;
   color: #333;
   font-weight: 700;
   padding-bottom: 30px;
 }
-/* line 135, ../sass/print.scss */
+/* line 143, ../sass/print.scss */
 main .content-1 .description p {
   font-size: 20px;
   color: #999;
 }
-/* line 140, ../sass/print.scss */
+/* line 148, ../sass/print.scss */
 main .content-1 img {
   width: 100%;
   height: auto;
 }
-/* line 145, ../sass/print.scss */
+/* line 153, ../sass/print.scss */
 main .content-2 {
   background-color: #f5f5f5;
   width: 100%;
@@ -180,61 +189,61 @@ main .content-2 {
   flex-direction: column;
   padding: 100px 0;
 }
-/* line 152, ../sass/print.scss */
+/* line 160, ../sass/print.scss */
 main .content-2 .slot {
   display: block;
   width: 81%;
   margin: auto;
   padding: 40px 0;
 }
-/* line 157, ../sass/print.scss */
+/* line 165, ../sass/print.scss */
 main .content-2 .slot img {
   width: 48%;
   height: auto;
 }
-/* line 161, ../sass/print.scss */
+/* line 169, ../sass/print.scss */
 main .content-2 .slot .description {
   float: left;
   width: 48%;
 }
-/* line 164, ../sass/print.scss */
+/* line 172, ../sass/print.scss */
 main .content-2 .slot .description h2 {
   line-height: 1;
   font-size: 36px;
   color: #333;
   font-weight: 700;
 }
-/* line 170, ../sass/print.scss */
+/* line 178, ../sass/print.scss */
 main .content-2 .slot .description p {
   width: 100%;
   font-size: 20px;
   color: #999;
 }
-/* line 178, ../sass/print.scss */
+/* line 186, ../sass/print.scss */
 main .content-2 .left img {
   float: left;
   padding-right: 20px;
 }
-/* line 183, ../sass/print.scss */
+/* line 191, ../sass/print.scss */
 main .content-2 .right {
   padding-top: 60px;
 }
-/* line 185, ../sass/print.scss */
+/* line 193, ../sass/print.scss */
 main .content-2 .right img {
   float: right;
   padding-left: 20px;
 }
-/* line 190, ../sass/print.scss */
+/* line 198, ../sass/print.scss */
 main .content-2 .right h2,
 main .content-2 .right p {
   text-align: right;
 }
-/* line 195, ../sass/print.scss */
+/* line 203, ../sass/print.scss */
 main .subscriber-footer {
   width: 100%;
   background-image: url("../images/bg2.png");
 }
-/* line 198, ../sass/print.scss */
+/* line 206, ../sass/print.scss */
 main .subscriber-footer .content {
   width: 63%;
   margin: auto;
@@ -244,30 +253,31 @@ main .subscriber-footer .content {
   text-align: center;
   line-height: 1.5;
 }
-/* line 206, ../sass/print.scss */
+/* line 214, ../sass/print.scss */
 main .subscriber-footer .content p {
   font-size: 24px;
   padding-top: 100px;
 }
-/* line 209, ../sass/print.scss */
+/* line 217, ../sass/print.scss */
 main .subscriber-footer .content p b {
   font-weight: 700;
 }
-/* line 213, ../sass/print.scss */
+/* line 221, ../sass/print.scss */
 main .subscriber-footer .content p.try {
   padding-top: 30px;
 }
-/* line 216, ../sass/print.scss */
+/* line 224, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar {
   padding-top: 20px;
 }
-/* line 218, ../sass/print.scss */
+/* line 226, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input {
   border: none;
   border-style: none;
   border-color: transparent;
+  outline: none;
 }
-/* line 223, ../sass/print.scss */
+/* line 232, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input[type=email] {
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -278,7 +288,7 @@ main .subscriber-footer .content form.email-bar input[type=email] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 233, ../sass/print.scss */
+/* line 242, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input[type=submit] {
   position: relative;
   border-top-right-radius: 60px;
@@ -291,22 +301,22 @@ main .subscriber-footer .content form.email-bar input[type=submit] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 246, ../sass/print.scss */
+/* line 255, ../sass/print.scss */
 main .subscriber-footer .content span {
   position: relative;
   top: 13px;
 }
-/* line 252, ../sass/print.scss */
+/* line 261, ../sass/print.scss */
 main .hashtagLoader {
   width: 100%;
   background-color: #333;
 }
-/* line 255, ../sass/print.scss */
+/* line 264, ../sass/print.scss */
 main .hashtagLoader .content {
   color: #fff;
   text-align: center;
 }
-/* line 258, ../sass/print.scss */
+/* line 267, ../sass/print.scss */
 main .hashtagLoader .content p {
   position: relative;
   top: -130px;
@@ -316,7 +326,7 @@ main .hashtagLoader .content p {
   font-size: 48px;
   font-weight: 700;
 }
-/* line 272, ../sass/print.scss */
+/* line 281, ../sass/print.scss */
 main .about-section-1 {
   font-family: 'Asap', sans-serif;
   width: 80%;
@@ -326,31 +336,31 @@ main .about-section-1 {
   line-height: 1.4;
   height: auto;
 }
-/* line 280, ../sass/print.scss */
+/* line 289, ../sass/print.scss */
 main .about-section-1 .content {
   width: 58%;
   float: left;
   padding-right: 2%;
 }
-/* line 284, ../sass/print.scss */
+/* line 293, ../sass/print.scss */
 main .about-section-1 .content h2 {
   font-size: 36px;
   font-weight: 700;
   color: #333;
   padding-bottom: 30px;
 }
-/* line 290, ../sass/print.scss */
+/* line 299, ../sass/print.scss */
 main .about-section-1 .content p {
   font-size: 20px;
   color: #999;
   padding-bottom: 20px;
 }
-/* line 296, ../sass/print.scss */
+/* line 305, ../sass/print.scss */
 main .about-section-1 .content-image {
   width: 40%;
   float: left;
 }
-/* line 304, ../sass/print.scss */
+/* line 313, ../sass/print.scss */
 main .about-section-2 {
   font-family: 'Asap', sans-serif;
   display: block;
@@ -358,22 +368,23 @@ main .about-section-2 {
   margin: auto;
   text-align: center;
   line-height: 1.4;
-  padding: 60px 0;
+  padding-bottom: 60px;
   top: 60px;
 }
-/* line 314, ../sass/print.scss */
+/* line 323, ../sass/print.scss */
 main .about-section-2 .content h2 {
   font-size: 36px;
   color: #333;
   font-weight: 700;
+  padding-bottom: 20px;
 }
-/* line 319, ../sass/print.scss */
+/* line 329, ../sass/print.scss */
 main .about-section-2 .content p {
   font-size: 20px;
   color: #999;
   padding-bottom: 20px;
 }
-/* line 324, ../sass/print.scss */
+/* line 334, ../sass/print.scss */
 main .about-section-2 .content a {
   padding: 21px 80px 20px;
   background-color: #2ecc71;
@@ -385,7 +396,7 @@ main .about-section-2 .content a {
   top: 15px;
 }
 @media (min-width: 1024px) {
-  /* line 338, ../sass/print.scss */
+  /* line 348, ../sass/print.scss */
   main .about-circles .circle_2014 {
     font-family: Asap;
     position: absolute;
@@ -402,13 +413,13 @@ main .about-section-2 .content a {
     background-color: #f5f5f5;
     text-align: center;
   }
-  /* line 353, ../sass/print.scss */
+  /* line 363, ../sass/print.scss */
   main .about-circles .circle_2014 span {
     float: left;
     margin: 30%;
     margin-top: 40%;
   }
-  /* line 359, ../sass/print.scss */
+  /* line 369, ../sass/print.scss */
   main .about-circles .circle_now {
     font-family: Asap;
     width: 100px;
@@ -426,26 +437,28 @@ main .about-section-2 .content a {
     background-color: #e74c3c;
     text-align: center;
   }
-  /* line 375, ../sass/print.scss */
+  /* line 385, ../sass/print.scss */
   main .about-circles .circle_now span {
     float: left;
     margin: 30%;
     margin-top: 40%;
+    font-weight: 700;
+    color: #fff;
   }
-  /* line 381, ../sass/print.scss */
+  /* line 393, ../sass/print.scss */
   main .about-circles .container_2 {
     background-color: #f5f5f5;
     width: 100%;
     position: relative;
     padding-top: 36px;
   }
-  /* line 387, ../sass/print.scss */
+  /* line 399, ../sass/print.scss */
   main .about-circles .container_wrapper {
     position: relative;
     width: 87%;
     margin: auto;
   }
-  /* line 394, ../sass/print.scss */
+  /* line 406, ../sass/print.scss */
   main .about-circles .content_list {
     position: relative;
     display: flex;
@@ -453,7 +466,7 @@ main .about-section-2 .content a {
     flex-direction: row;
     margin: auto;
   }
-  /* line 400, ../sass/print.scss */
+  /* line 412, ../sass/print.scss */
   main .about-circles .content_list .list_left {
     width: 41%;
     position: relative;
@@ -461,25 +474,25 @@ main .about-section-2 .content a {
     padding: 2%;
     padding-right: 5%;
   }
-  /* line 409, ../sass/print.scss */
+  /* line 421, ../sass/print.scss */
   main .about-circles .content_list .list_left .content {
     background-color: #fff;
     border-radius: 10px;
   }
-  /* line 413, ../sass/print.scss */
+  /* line 425, ../sass/print.scss */
   main .about-circles .content_list .list_left h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 419, ../sass/print.scss */
+  /* line 431, ../sass/print.scss */
   main .about-circles .content_list .list_left p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 424, ../sass/print.scss */
+  /* line 436, ../sass/print.scss */
   main .about-circles .content_list .list_left .tool_tip {
     position: absolute;
     float: right;
@@ -489,7 +502,7 @@ main .about-section-2 .content a {
     border-top: 15px solid transparent;
     border-left: 20px solid #fff;
   }
-  /* line 433, ../sass/print.scss */
+  /* line 445, ../sass/print.scss */
   main .about-circles .content_list .list_left .circle {
     position: absolute;
     width: 40px;
@@ -500,7 +513,7 @@ main .about-section-2 .content a {
     right: -23px;
     margin-top: -19%;
   }
-  /* line 444, ../sass/print.scss */
+  /* line 456, ../sass/print.scss */
   main .about-circles .content_list .list_right {
     width: 41%;
     margin-top: 110px;
@@ -510,25 +523,25 @@ main .about-section-2 .content a {
     padding-left: 7%;
     display: inline-block;
   }
-  /* line 455, ../sass/print.scss */
+  /* line 467, ../sass/print.scss */
   main .about-circles .content_list .list_right .content {
     background-color: #fff;
     border-radius: 10px;
   }
-  /* line 458, ../sass/print.scss */
+  /* line 470, ../sass/print.scss */
   main .about-circles .content_list .list_right .content h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 464, ../sass/print.scss */
+  /* line 476, ../sass/print.scss */
   main .about-circles .content_list .list_right .content p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 470, ../sass/print.scss */
+  /* line 482, ../sass/print.scss */
   main .about-circles .content_list .list_right .tool_tip {
     position: absolute;
     float: left;
@@ -538,7 +551,7 @@ main .about-section-2 .content a {
     border-top: 15px solid transparent;
     border-right: 20px solid #fff;
   }
-  /* line 479, ../sass/print.scss */
+  /* line 491, ../sass/print.scss */
   main .about-circles .content_list .list_right .circle {
     position: absolute;
     width: 40px;
@@ -549,13 +562,29 @@ main .about-section-2 .content a {
     left: -24px;
     margin-top: -18%;
   }
-  /* line 490, ../sass/print.scss */
+  /* line 502, ../sass/print.scss */
   main .about-circles .content_list #last_div {
     padding-bottom: 100px;
   }
 }
+/* line 508, ../sass/print.scss */
+main #first {
+  background-color: #ffc3bd;
+}
+/* line 511, ../sass/print.scss */
+main #second {
+  background-color: #fa9d93;
+}
+/* line 514, ../sass/print.scss */
+main #third {
+  background-color: #ed8074;
+}
+/* line 517, ../sass/print.scss */
+main #fourth {
+  background-color: #ec675a;
+}
 
-/* line 497, ../sass/print.scss */
+/* line 521, ../sass/print.scss */
 footer {
   width: 100%;
   position: relative;
@@ -563,7 +592,7 @@ footer {
   text-align: center;
   margin-top: 136px;
 }
-/* line 503, ../sass/print.scss */
+/* line 527, ../sass/print.scss */
 footer img:hover {
   cursor: pointer;
   opacity: 0.8;
