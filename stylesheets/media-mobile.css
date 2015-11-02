@@ -22,110 +22,144 @@
   }
   /* line 21, ../sass/media-mobile.scss */
   main .subscriber-section .content form.email-bar input[type=email] {
-    width: 70%;
-    padding: 7px 0px 7px 18px;
+    width: 59%;
+    height: 30px;
+    font-size: 16.3px;
+    padding: 7px 0 7px 18px;
   }
-  /* line 25, ../sass/media-mobile.scss */
+  /* line 27, ../sass/media-mobile.scss */
   main .subscriber-section .content form.email-bar input[type=submit] {
-    height: 57px;
+    height: 44px;
+    font-size: 16.3px;
   }
-  /* line 32, ../sass/media-mobile.scss */
+  /* line 35, ../sass/media-mobile.scss */
   main .content-1 .description {
     width: 80%;
   }
-  /* line 34, ../sass/media-mobile.scss */
+  /* line 37, ../sass/media-mobile.scss */
   main .content-1 .description h2 {
     font-size: 29px;
   }
-  /* line 37, ../sass/media-mobile.scss */
+  /* line 40, ../sass/media-mobile.scss */
   main .content-1 .description p {
     font-size: 16px;
   }
-  /* line 43, ../sass/media-mobile.scss */
+  /* line 46, ../sass/media-mobile.scss */
   main .content-2 .slot {
     text-align: center;
     position: relative;
   }
-  /* line 46, ../sass/media-mobile.scss */
+  /* line 49, ../sass/media-mobile.scss */
   main .content-2 .slot .description {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 0;
     float: none;
     display: block;
   }
-  /* line 52, ../sass/media-mobile.scss */
+  /* line 55, ../sass/media-mobile.scss */
   main .content-2 .slot .description h2 {
     font-size: 29px;
   }
-  /* line 55, ../sass/media-mobile.scss */
+  /* line 58, ../sass/media-mobile.scss */
   main .content-2 .slot .description p {
     font-size: 16px;
   }
-  /* line 59, ../sass/media-mobile.scss */
+  /* line 62, ../sass/media-mobile.scss */
   main .content-2 .slot img {
     width: 80%;
     height: auto;
   }
-  /* line 65, ../sass/media-mobile.scss */
-  main .content-2 .left h2, main .content-2 .left p, main .content-2 .right h2, main .content-2 .right p {
+  /* line 70, ../sass/media-mobile.scss */
+  main .content-2 .left h2,
+  main .content-2 .left p,
+  main .content-2 .right h2,
+  main .content-2 .right p {
     text-align: center;
     padding-bottom: 20px;
   }
-  /* line 69, ../sass/media-mobile.scss */
-  main .content-2 .left img, main .content-2 .right img {
+  /* line 74, ../sass/media-mobile.scss */
+  main .content-2 .left img,
+  main .content-2 .right img {
     text-align: center;
     float: none;
-    padding-top: 102px;
+    padding-top: 131px;
   }
-  /* line 76, ../sass/media-mobile.scss */
+  /* line 81, ../sass/media-mobile.scss */
   main .about-section-1 {
     width: 90%;
     margin: auto;
   }
-  /* line 80, ../sass/media-mobile.scss */
+  /* line 85, ../sass/media-mobile.scss */
   main .about-section-1 .content h2 {
     font-size: 29px;
   }
-  /* line 83, ../sass/media-mobile.scss */
+  /* line 88, ../sass/media-mobile.scss */
   main .about-section-1 .content p {
     font-size: 16px;
   }
-  /* line 88, ../sass/media-mobile.scss */
+  /* line 93, ../sass/media-mobile.scss */
   main .about-section-2 {
     width: 90%;
     margin: auto;
   }
-  /* line 92, ../sass/media-mobile.scss */
+  /* line 97, ../sass/media-mobile.scss */
   main .about-section-2 .content h2 {
     font-size: 29px;
   }
-  /* line 95, ../sass/media-mobile.scss */
+  /* line 100, ../sass/media-mobile.scss */
   main .about-section-2 .content p {
     font-size: 16px;
   }
-  /* line 103, ../sass/media-mobile.scss */
+  /* line 106, ../sass/media-mobile.scss */
+  main .subscriber-footer .content {
+    width: 80%;
+  }
+  /* line 108, ../sass/media-mobile.scss */
+  main .subscriber-footer .content p {
+    font-size: 19px;
+  }
+  /* line 112, ../sass/media-mobile.scss */
   main .subscriber-footer .content form.email-bar input[type=email] {
-    width: 70%;
-    padding: 7px 0px 7px 18px;
+    width: 59%;
+    height: 30px;
+    font-size: 16.3px;
+    padding: 7px 0 7px 18px;
   }
-  /* line 107, ../sass/media-mobile.scss */
+  /* line 118, ../sass/media-mobile.scss */
   main .subscriber-footer .content form.email-bar input[type=submit] {
-    height: 57px;
+    height: 44px;
+    font-size: 16.3px;
   }
-  /* line 113, ../sass/media-mobile.scss */
+  /* line 125, ../sass/media-mobile.scss */
   main .hashtagLoader {
     height: auto;
   }
-  /* line 116, ../sass/media-mobile.scss */
+  /* line 128, ../sass/media-mobile.scss */
   main .hashtagLoader .content img {
     height: 160px;
     width: 150px;
   }
-  /* line 120, ../sass/media-mobile.scss */
+  /* line 132, ../sass/media-mobile.scss */
   main .hashtagLoader .content p {
     top: -73px;
     left: -67px;
     font-size: 30px;
+  }
+}
+@media (max-width: 423px) {
+  /* line 145, ../sass/media-mobile.scss */
+  main .hashtagLoader .content img {
+    float: left;
+    width: 120px;
+    height: 135px;
+  }
+  /* line 150, ../sass/media-mobile.scss */
+  main .hashtagLoader .content p {
+    float: left;
+    position: relative;
+    top: 45px;
+    left: -54px;
+    font-size: 27px;
   }
 }

@@ -72,13 +72,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 /* line 4, ../sass/print.scss */
 body {
-  max-width: 1280px;
+  width: 100%;
   margin: auto;
 }
+@media (min-width: 1368px) {
+  /* line 4, ../sass/print.scss */
+  body {
+    max-width: 1280px;
+  }
+}
 
-/* line 8, ../sass/print.scss */
+/* line 11, ../sass/print.scss */
 header {
-  max-width: 1280px;
   width: 100%;
   background-color: #fff;
   z-index: 999;
@@ -87,7 +92,13 @@ header {
   z-index: 9999;
   border-bottom: 1px solid #f5f5f5;
 }
-/* line 17, ../sass/print.scss */
+@media (min-width: 1368px) {
+  /* line 11, ../sass/print.scss */
+  header {
+    max-width: 1280px;
+  }
+}
+/* line 22, ../sass/print.scss */
 header .main-header {
   width: 81%;
   margin: auto;
@@ -95,59 +106,59 @@ header .main-header {
   padding: 25px 0;
   font-family: 'Asap', sans-serif;
 }
-/* line 23, ../sass/print.scss */
+/* line 28, ../sass/print.scss */
 header .main-header .header-left {
   float: left;
   font-size: 18px;
   font-weight: 700;
 }
-/* line 27, ../sass/print.scss */
+/* line 32, ../sass/print.scss */
 header .main-header .header-left div {
   display: inline-block;
   padding: 5px;
 }
-/* line 31, ../sass/print.scss */
+/* line 36, ../sass/print.scss */
 header .main-header .header-left a {
   text-decoration: none;
   color: #999;
 }
-/* line 36, ../sass/print.scss */
+/* line 41, ../sass/print.scss */
 header .main-header .header-left .active a {
   color: #333;
 }
-/* line 41, ../sass/print.scss */
+/* line 46, ../sass/print.scss */
 header .main-header .header-right {
   float: right;
 }
-/* line 43, ../sass/print.scss */
+/* line 48, ../sass/print.scss */
 header .main-header .header-right img {
   padding-right: 5px;
 }
-/* line 45, ../sass/print.scss */
+/* line 50, ../sass/print.scss */
 header .main-header .header-right img:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
-/* line 53, ../sass/print.scss */
+/* line 58, ../sass/print.scss */
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 58, ../sass/print.scss */
+/* line 63, ../sass/print.scss */
 main {
   position: relative;
-  top: 80px;
+  top: 100px;
   font-family: 'Asap', sans-serif;
 }
-/* line 62, ../sass/print.scss */
+/* line 67, ../sass/print.scss */
 main .subscriber-section {
   background-image: url("../images/bg1_repeat.png");
   width: 100%;
 }
-/* line 65, ../sass/print.scss */
+/* line 70, ../sass/print.scss */
 main .subscriber-section .content {
   width: 50%;
   color: #fff;
@@ -156,39 +167,39 @@ main .subscriber-section .content {
   height: auto;
   line-height: 1.4;
 }
-/* line 72, ../sass/print.scss */
+/* line 77, ../sass/print.scss */
 main .subscriber-section .content h2 {
   padding: 50px 0;
   font-size: 52px;
   font-weight: 700;
 }
-/* line 77, ../sass/print.scss */
+/* line 82, ../sass/print.scss */
 main .subscriber-section .content p {
   font-size: 24px;
 }
-/* line 80, ../sass/print.scss */
+/* line 85, ../sass/print.scss */
 main .subscriber-section .content span {
   display: block;
   padding: 15px 0;
   font-size: 16px;
 }
-/* line 85, ../sass/print.scss */
+/* line 90, ../sass/print.scss */
 main .subscriber-section .content img {
   position: relative;
   top: 5px;
 }
-/* line 89, ../sass/print.scss */
+/* line 94, ../sass/print.scss */
 main .subscriber-section .content form.email-bar {
   padding-top: 20px;
 }
-/* line 91, ../sass/print.scss */
+/* line 96, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input {
   border: none;
   border-style: none;
   border-color: transparent;
   outline: none;
 }
-/* line 97, ../sass/print.scss */
+/* line 102, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input[type=email] {
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -200,13 +211,13 @@ main .subscriber-section .content form.email-bar input[type=email] {
   font-size: 20.3px;
   outline: none;
 }
-/* line 107, ../sass/print.scss */
+/* line 112, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input[type=email]:focus {
   border: none;
   border-style: none;
   border-color: transparent;
 }
-/* line 113, ../sass/print.scss */
+/* line 118, ../sass/print.scss */
 main .subscriber-section .content form.email-bar input[type=submit] {
   position: relative;
   border-top-right-radius: 60px;
@@ -219,37 +230,37 @@ main .subscriber-section .content form.email-bar input[type=submit] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 128, ../sass/print.scss */
+/* line 133, ../sass/print.scss */
 main .content-1 {
   font-family: 'Asap', sans-serif;
   text-align: center;
   width: 100%;
   line-height: 1.5;
 }
-/* line 133, ../sass/print.scss */
+/* line 138, ../sass/print.scss */
 main .content-1 .description {
   width: 50%;
   margin: auto;
   padding: 105px 0 20px;
 }
-/* line 137, ../sass/print.scss */
+/* line 142, ../sass/print.scss */
 main .content-1 .description h2 {
   font-size: 36px;
   color: #333;
   font-weight: 700;
   padding-bottom: 30px;
 }
-/* line 143, ../sass/print.scss */
+/* line 148, ../sass/print.scss */
 main .content-1 .description p {
   font-size: 20px;
   color: #999;
 }
-/* line 148, ../sass/print.scss */
+/* line 153, ../sass/print.scss */
 main .content-1 img {
   width: 100%;
   height: auto;
 }
-/* line 153, ../sass/print.scss */
+/* line 158, ../sass/print.scss */
 main .content-2 {
   background-color: #f5f5f5;
   width: 100%;
@@ -258,61 +269,61 @@ main .content-2 {
   flex-direction: column;
   padding: 100px 0;
 }
-/* line 160, ../sass/print.scss */
+/* line 165, ../sass/print.scss */
 main .content-2 .slot {
   display: block;
   width: 81%;
   margin: auto;
   padding: 40px 0;
 }
-/* line 165, ../sass/print.scss */
+/* line 170, ../sass/print.scss */
 main .content-2 .slot img {
   width: 48%;
   height: auto;
 }
-/* line 169, ../sass/print.scss */
+/* line 174, ../sass/print.scss */
 main .content-2 .slot .description {
   float: left;
   width: 48%;
 }
-/* line 172, ../sass/print.scss */
+/* line 177, ../sass/print.scss */
 main .content-2 .slot .description h2 {
   line-height: 1;
   font-size: 36px;
   color: #333;
   font-weight: 700;
 }
-/* line 178, ../sass/print.scss */
+/* line 183, ../sass/print.scss */
 main .content-2 .slot .description p {
   width: 100%;
   font-size: 20px;
   color: #999;
 }
-/* line 186, ../sass/print.scss */
+/* line 191, ../sass/print.scss */
 main .content-2 .left img {
   float: left;
   padding-right: 20px;
 }
-/* line 191, ../sass/print.scss */
+/* line 196, ../sass/print.scss */
 main .content-2 .right {
   padding-top: 60px;
 }
-/* line 193, ../sass/print.scss */
+/* line 198, ../sass/print.scss */
 main .content-2 .right img {
   float: right;
   padding-left: 20px;
 }
-/* line 198, ../sass/print.scss */
+/* line 203, ../sass/print.scss */
 main .content-2 .right h2,
 main .content-2 .right p {
   text-align: right;
 }
-/* line 203, ../sass/print.scss */
+/* line 208, ../sass/print.scss */
 main .subscriber-footer {
   width: 100%;
   background-image: url("../images/bg2.png");
 }
-/* line 206, ../sass/print.scss */
+/* line 211, ../sass/print.scss */
 main .subscriber-footer .content {
   width: 63%;
   margin: auto;
@@ -322,31 +333,31 @@ main .subscriber-footer .content {
   text-align: center;
   line-height: 1.5;
 }
-/* line 214, ../sass/print.scss */
+/* line 219, ../sass/print.scss */
 main .subscriber-footer .content p {
   font-size: 24px;
   padding-top: 100px;
 }
-/* line 217, ../sass/print.scss */
+/* line 222, ../sass/print.scss */
 main .subscriber-footer .content p b {
   font-weight: 700;
 }
-/* line 221, ../sass/print.scss */
+/* line 226, ../sass/print.scss */
 main .subscriber-footer .content p.try {
   padding-top: 30px;
 }
-/* line 224, ../sass/print.scss */
+/* line 229, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar {
   padding-top: 20px;
 }
-/* line 226, ../sass/print.scss */
+/* line 231, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input {
   border: none;
   border-style: none;
   border-color: transparent;
   outline: none;
 }
-/* line 232, ../sass/print.scss */
+/* line 237, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input[type=email] {
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -357,7 +368,7 @@ main .subscriber-footer .content form.email-bar input[type=email] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 242, ../sass/print.scss */
+/* line 247, ../sass/print.scss */
 main .subscriber-footer .content form.email-bar input[type=submit] {
   position: relative;
   border-top-right-radius: 60px;
@@ -370,22 +381,22 @@ main .subscriber-footer .content form.email-bar input[type=submit] {
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-/* line 255, ../sass/print.scss */
+/* line 260, ../sass/print.scss */
 main .subscriber-footer .content span {
   position: relative;
   top: 13px;
 }
-/* line 261, ../sass/print.scss */
+/* line 266, ../sass/print.scss */
 main .hashtagLoader {
   width: 100%;
   background-color: #333;
 }
-/* line 264, ../sass/print.scss */
+/* line 269, ../sass/print.scss */
 main .hashtagLoader .content {
   color: #fff;
   text-align: center;
 }
-/* line 267, ../sass/print.scss */
+/* line 272, ../sass/print.scss */
 main .hashtagLoader .content p {
   position: relative;
   top: -130px;
@@ -395,7 +406,7 @@ main .hashtagLoader .content p {
   font-size: 48px;
   font-weight: 700;
 }
-/* line 281, ../sass/print.scss */
+/* line 286, ../sass/print.scss */
 main .about-section-1 {
   font-family: 'Asap', sans-serif;
   width: 80%;
@@ -405,31 +416,31 @@ main .about-section-1 {
   line-height: 1.4;
   height: auto;
 }
-/* line 289, ../sass/print.scss */
+/* line 294, ../sass/print.scss */
 main .about-section-1 .content {
   width: 58%;
   float: left;
   padding-right: 2%;
 }
-/* line 293, ../sass/print.scss */
+/* line 298, ../sass/print.scss */
 main .about-section-1 .content h2 {
   font-size: 36px;
   font-weight: 700;
   color: #333;
   padding-bottom: 30px;
 }
-/* line 299, ../sass/print.scss */
+/* line 304, ../sass/print.scss */
 main .about-section-1 .content p {
   font-size: 20px;
   color: #999;
   padding-bottom: 20px;
 }
-/* line 305, ../sass/print.scss */
+/* line 310, ../sass/print.scss */
 main .about-section-1 .content-image {
   width: 40%;
   float: left;
 }
-/* line 313, ../sass/print.scss */
+/* line 318, ../sass/print.scss */
 main .about-section-2 {
   font-family: 'Asap', sans-serif;
   display: block;
@@ -440,20 +451,20 @@ main .about-section-2 {
   padding-bottom: 60px;
   top: 60px;
 }
-/* line 323, ../sass/print.scss */
+/* line 328, ../sass/print.scss */
 main .about-section-2 .content h2 {
   font-size: 36px;
   color: #333;
   font-weight: 700;
   padding-bottom: 20px;
 }
-/* line 329, ../sass/print.scss */
+/* line 334, ../sass/print.scss */
 main .about-section-2 .content p {
   font-size: 20px;
   color: #999;
   padding-bottom: 20px;
 }
-/* line 334, ../sass/print.scss */
+/* line 339, ../sass/print.scss */
 main .about-section-2 .content a {
   padding: 21px 80px 20px;
   background-color: #2ecc71;
@@ -465,7 +476,7 @@ main .about-section-2 .content a {
   top: 15px;
 }
 @media (min-width: 1024px) {
-  /* line 348, ../sass/print.scss */
+  /* line 353, ../sass/print.scss */
   main .about-circles .circle_2014 {
     font-family: Asap;
     position: absolute;
@@ -482,13 +493,13 @@ main .about-section-2 .content a {
     background-color: #f5f5f5;
     text-align: center;
   }
-  /* line 363, ../sass/print.scss */
+  /* line 368, ../sass/print.scss */
   main .about-circles .circle_2014 span {
     float: left;
     margin: 30%;
     margin-top: 40%;
   }
-  /* line 369, ../sass/print.scss */
+  /* line 374, ../sass/print.scss */
   main .about-circles .circle_now {
     font-family: Asap;
     width: 100px;
@@ -506,7 +517,7 @@ main .about-section-2 .content a {
     background-color: #e74c3c;
     text-align: center;
   }
-  /* line 385, ../sass/print.scss */
+  /* line 390, ../sass/print.scss */
   main .about-circles .circle_now span {
     float: left;
     margin: 30%;
@@ -514,20 +525,20 @@ main .about-section-2 .content a {
     font-weight: 700;
     color: #fff;
   }
-  /* line 393, ../sass/print.scss */
+  /* line 398, ../sass/print.scss */
   main .about-circles .container_2 {
     background-color: #f5f5f5;
     width: 100%;
     position: relative;
     padding-top: 36px;
   }
-  /* line 399, ../sass/print.scss */
+  /* line 404, ../sass/print.scss */
   main .about-circles .container_wrapper {
     position: relative;
     width: 87%;
     margin: auto;
   }
-  /* line 406, ../sass/print.scss */
+  /* line 411, ../sass/print.scss */
   main .about-circles .content_list {
     position: relative;
     display: flex;
@@ -535,7 +546,7 @@ main .about-section-2 .content a {
     flex-direction: row;
     margin: auto;
   }
-  /* line 412, ../sass/print.scss */
+  /* line 417, ../sass/print.scss */
   main .about-circles .content_list .list_left {
     width: 41%;
     position: relative;
@@ -543,25 +554,25 @@ main .about-section-2 .content a {
     padding: 2%;
     padding-right: 5%;
   }
-  /* line 421, ../sass/print.scss */
+  /* line 426, ../sass/print.scss */
   main .about-circles .content_list .list_left .content {
     background-color: #fff;
     border-radius: 10px;
   }
-  /* line 425, ../sass/print.scss */
+  /* line 430, ../sass/print.scss */
   main .about-circles .content_list .list_left h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 431, ../sass/print.scss */
+  /* line 436, ../sass/print.scss */
   main .about-circles .content_list .list_left p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 436, ../sass/print.scss */
+  /* line 441, ../sass/print.scss */
   main .about-circles .content_list .list_left .tool_tip {
     position: absolute;
     float: right;
@@ -571,7 +582,7 @@ main .about-section-2 .content a {
     border-top: 15px solid transparent;
     border-left: 20px solid #fff;
   }
-  /* line 445, ../sass/print.scss */
+  /* line 450, ../sass/print.scss */
   main .about-circles .content_list .list_left .circle {
     position: absolute;
     width: 40px;
@@ -582,7 +593,7 @@ main .about-section-2 .content a {
     right: -23px;
     margin-top: -19%;
   }
-  /* line 456, ../sass/print.scss */
+  /* line 461, ../sass/print.scss */
   main .about-circles .content_list .list_right {
     width: 41%;
     margin-top: 110px;
@@ -592,25 +603,25 @@ main .about-section-2 .content a {
     padding-left: 7%;
     display: inline-block;
   }
-  /* line 467, ../sass/print.scss */
+  /* line 472, ../sass/print.scss */
   main .about-circles .content_list .list_right .content {
     background-color: #fff;
     border-radius: 10px;
   }
-  /* line 470, ../sass/print.scss */
+  /* line 475, ../sass/print.scss */
   main .about-circles .content_list .list_right .content h2 {
     font-weight: bold;
     font-size: 22px;
     color: #333;
     padding: 10px;
   }
-  /* line 476, ../sass/print.scss */
+  /* line 481, ../sass/print.scss */
   main .about-circles .content_list .list_right .content p {
     font-size: 20px;
     color: #999;
     padding: 10px;
   }
-  /* line 482, ../sass/print.scss */
+  /* line 487, ../sass/print.scss */
   main .about-circles .content_list .list_right .tool_tip {
     position: absolute;
     float: left;
@@ -620,7 +631,7 @@ main .about-section-2 .content a {
     border-top: 15px solid transparent;
     border-right: 20px solid #fff;
   }
-  /* line 491, ../sass/print.scss */
+  /* line 496, ../sass/print.scss */
   main .about-circles .content_list .list_right .circle {
     position: absolute;
     width: 40px;
@@ -631,29 +642,29 @@ main .about-section-2 .content a {
     left: -24px;
     margin-top: -18%;
   }
-  /* line 502, ../sass/print.scss */
+  /* line 507, ../sass/print.scss */
   main .about-circles .content_list #last_div {
     padding-bottom: 100px;
   }
 }
-/* line 508, ../sass/print.scss */
+/* line 513, ../sass/print.scss */
 main #first {
   background-color: #ffc3bd;
 }
-/* line 511, ../sass/print.scss */
+/* line 516, ../sass/print.scss */
 main #second {
   background-color: #fa9d93;
 }
-/* line 514, ../sass/print.scss */
+/* line 519, ../sass/print.scss */
 main #third {
   background-color: #ed8074;
 }
-/* line 517, ../sass/print.scss */
+/* line 522, ../sass/print.scss */
 main #fourth {
   background-color: #ec675a;
 }
 
-/* line 521, ../sass/print.scss */
+/* line 526, ../sass/print.scss */
 footer {
   width: 100%;
   position: relative;
@@ -661,7 +672,7 @@ footer {
   text-align: center;
   margin-top: 136px;
 }
-/* line 527, ../sass/print.scss */
+/* line 532, ../sass/print.scss */
 footer img:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -691,111 +702,145 @@ footer img:hover {
   }
   /* line 21, ../sass/media-mobile.scss */
   main .subscriber-section .content form.email-bar input[type=email] {
-    width: 70%;
-    padding: 7px 0px 7px 18px;
+    width: 59%;
+    height: 30px;
+    font-size: 16.3px;
+    padding: 7px 0 7px 18px;
   }
-  /* line 25, ../sass/media-mobile.scss */
+  /* line 27, ../sass/media-mobile.scss */
   main .subscriber-section .content form.email-bar input[type=submit] {
-    height: 57px;
+    height: 44px;
+    font-size: 16.3px;
   }
-  /* line 32, ../sass/media-mobile.scss */
+  /* line 35, ../sass/media-mobile.scss */
   main .content-1 .description {
     width: 80%;
   }
-  /* line 34, ../sass/media-mobile.scss */
+  /* line 37, ../sass/media-mobile.scss */
   main .content-1 .description h2 {
     font-size: 29px;
   }
-  /* line 37, ../sass/media-mobile.scss */
+  /* line 40, ../sass/media-mobile.scss */
   main .content-1 .description p {
     font-size: 16px;
   }
-  /* line 43, ../sass/media-mobile.scss */
+  /* line 46, ../sass/media-mobile.scss */
   main .content-2 .slot {
     text-align: center;
     position: relative;
   }
-  /* line 46, ../sass/media-mobile.scss */
+  /* line 49, ../sass/media-mobile.scss */
   main .content-2 .slot .description {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 0;
     float: none;
     display: block;
   }
-  /* line 52, ../sass/media-mobile.scss */
+  /* line 55, ../sass/media-mobile.scss */
   main .content-2 .slot .description h2 {
     font-size: 29px;
   }
-  /* line 55, ../sass/media-mobile.scss */
+  /* line 58, ../sass/media-mobile.scss */
   main .content-2 .slot .description p {
     font-size: 16px;
   }
-  /* line 59, ../sass/media-mobile.scss */
+  /* line 62, ../sass/media-mobile.scss */
   main .content-2 .slot img {
     width: 80%;
     height: auto;
   }
-  /* line 65, ../sass/media-mobile.scss */
-  main .content-2 .left h2, main .content-2 .left p, main .content-2 .right h2, main .content-2 .right p {
+  /* line 70, ../sass/media-mobile.scss */
+  main .content-2 .left h2,
+  main .content-2 .left p,
+  main .content-2 .right h2,
+  main .content-2 .right p {
     text-align: center;
     padding-bottom: 20px;
   }
-  /* line 69, ../sass/media-mobile.scss */
-  main .content-2 .left img, main .content-2 .right img {
+  /* line 74, ../sass/media-mobile.scss */
+  main .content-2 .left img,
+  main .content-2 .right img {
     text-align: center;
     float: none;
-    padding-top: 102px;
+    padding-top: 131px;
   }
-  /* line 76, ../sass/media-mobile.scss */
+  /* line 81, ../sass/media-mobile.scss */
   main .about-section-1 {
     width: 90%;
     margin: auto;
   }
-  /* line 80, ../sass/media-mobile.scss */
+  /* line 85, ../sass/media-mobile.scss */
   main .about-section-1 .content h2 {
     font-size: 29px;
   }
-  /* line 83, ../sass/media-mobile.scss */
+  /* line 88, ../sass/media-mobile.scss */
   main .about-section-1 .content p {
     font-size: 16px;
   }
-  /* line 88, ../sass/media-mobile.scss */
+  /* line 93, ../sass/media-mobile.scss */
   main .about-section-2 {
     width: 90%;
     margin: auto;
   }
-  /* line 92, ../sass/media-mobile.scss */
+  /* line 97, ../sass/media-mobile.scss */
   main .about-section-2 .content h2 {
     font-size: 29px;
   }
-  /* line 95, ../sass/media-mobile.scss */
+  /* line 100, ../sass/media-mobile.scss */
   main .about-section-2 .content p {
     font-size: 16px;
   }
-  /* line 103, ../sass/media-mobile.scss */
+  /* line 106, ../sass/media-mobile.scss */
+  main .subscriber-footer .content {
+    width: 80%;
+  }
+  /* line 108, ../sass/media-mobile.scss */
+  main .subscriber-footer .content p {
+    font-size: 19px;
+  }
+  /* line 112, ../sass/media-mobile.scss */
   main .subscriber-footer .content form.email-bar input[type=email] {
-    width: 70%;
-    padding: 7px 0px 7px 18px;
+    width: 59%;
+    height: 30px;
+    font-size: 16.3px;
+    padding: 7px 0 7px 18px;
   }
-  /* line 107, ../sass/media-mobile.scss */
+  /* line 118, ../sass/media-mobile.scss */
   main .subscriber-footer .content form.email-bar input[type=submit] {
-    height: 57px;
+    height: 44px;
+    font-size: 16.3px;
   }
-  /* line 113, ../sass/media-mobile.scss */
+  /* line 125, ../sass/media-mobile.scss */
   main .hashtagLoader {
     height: auto;
   }
-  /* line 116, ../sass/media-mobile.scss */
+  /* line 128, ../sass/media-mobile.scss */
   main .hashtagLoader .content img {
     height: 160px;
     width: 150px;
   }
-  /* line 120, ../sass/media-mobile.scss */
+  /* line 132, ../sass/media-mobile.scss */
   main .hashtagLoader .content p {
     top: -73px;
     left: -67px;
     font-size: 30px;
+  }
+}
+@media (max-width: 423px) {
+  /* line 145, ../sass/media-mobile.scss */
+  main .hashtagLoader .content img {
+    float: left;
+    width: 120px;
+    height: 135px;
+  }
+  /* line 150, ../sass/media-mobile.scss */
+  main .hashtagLoader .content p {
+    float: left;
+    position: relative;
+    top: 45px;
+    left: -54px;
+    font-size: 27px;
   }
 }
 @media (max-width: 1023px) {

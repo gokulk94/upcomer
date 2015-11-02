@@ -2,11 +2,16 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 body {
-    max-width: 1280px;
+    width: 100%;
     margin: auto;
+    @media (min-width: 1368px) {
+            max-width: 1280px;
+    }
 }
 header {
-    max-width: 1280px;
+    @media (min-width: 1368px) {
+            max-width: 1280px;
+    }
     width: 100%;
     background-color: #fff;
     z-index: 999;
@@ -57,7 +62,7 @@ header {
 }
 main {
     position: relative;
-    top: 80px;
+    top: 100px;
     font-family: 'Asap', sans-serif;
     .subscriber-section {
         background-image: url("../images/bg1_repeat.png");
