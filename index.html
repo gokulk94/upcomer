@@ -27,9 +27,9 @@
                 <h2>Stay updated on upcoming tech products you love</h2>
                 <p>We made it a whole lot easier for you to always stay updated on all upcoming products you care about</p>
                 <p>..so be the first to try upcomer</p>
-                <form class="email-bar">
+                <form class="email-bar" onsubmit="return formSubmit()">
                     <input type="email" placeholder="Enter your email" required>
-                    <input type="submit" value="Ok">
+                    <input id="ok_btn" type="submit" value="Ok">
                 </form>
                 <span>Coming to Android and iOS early 2015</span>
                 <a href="#anchor" id="scroll-down"><img src="images/down-arrow.png" alt="Go down!"></a>
@@ -62,9 +62,9 @@
             <div class="content">
                 <p>The first 5000 people to signup will get an "<b>early adopter priority</b>" for 6 months which gives you a higher priority when we give away brand new products</p>
                 <p class="try">Be the first to try Upcomer!</p>
-                <form class="email-bar">
-                    <input type="email" placeholder="Enter your email" required>
-                    <input type="submit" value="Ok">
+                <form class="email-bar" onsubmit="return formSubmit_footer()">
+                    <input id="email_footer" type="email" placeholder="Enter your email" required>
+                    <input id="ok_btn_footer" type="submit" value="Ok">
                 </form>
                 <span>Coming to Android and iOS early 2015</span>
             </div>
